@@ -1,0 +1,141 @@
+/* *** NOTES *** */
+/*  
+    The following are the main colour themes:
+    Orangish - #FF652F, rgb(255, 101, 47) 
+    Yellowish - #FFE400, rgb(255, 228, 0)
+    Dark grayish - #272727, rgb(39, 39, 39)
+*/
+/* *** NOTES *** */
+
+
+/* *** UNIVERSAL *** */
+.nbs-colourTheme-whitish {
+    color: whitesmoke;
+}
+
+.nbs-colourTheme-yellowish {
+    color: #FFE400;
+}
+
+.nbs-colourTheme-orangish {
+    color: #FF652F;
+}
+
+.nbs-relative {
+    position: relative;
+}
+
+.nbs-absolute {
+    position: absolute;
+}
+
+.nbs-border {
+    background-color: green;
+}
+
+.nbs-container-height {
+    height: 100%;
+}
+
+
+/* *** NAVIGATION BAR *** */
+.nbs-nav-logo-dec {
+    height: 3rem;
+}
+
+.nbs-nav-dec {
+    background-color: #272727;
+    border-bottom: 5px solid #FF652F;
+}
+
+
+/* *** HOME PAGE *** */
+.nbs-home-bg {
+    background-color: black;
+    /* background: url(../assets/images/background-images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg); */
+    background: url(../images/background-images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.nbs-btn-dec {
+    background-color: #FFE400;
+}
+
+
+/* *** SECTION 1 - HOW IT WORKS *** */
+.nbs-s1-bg {
+    background-color: #272727;
+    height: auto;
+}
+
+.nbs-card-dec {
+    background-color: #FFE400;
+    height: 20rem;
+}
+
+.nbs-card-icon-dec {
+    font-size: 3rem;
+}
+
+/* *** SECTION 2 & 3 */
+.nbs-s2s3-bg {
+    background: url(../images/background-images/dominik-kuhn-kEHp1gUJNO8-unsplash.jpg);
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nbs-s2s3-overlay {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    background-color: rgba(255, 101, 47, 0.3);
+    /* background-color: rgba(255, 228, 0, 0.6); */
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* *** SECTION 2: GALLERY */
+.nbs-carousel-dec {
+    border: 4px solid;
+    /* border: none; */
+    border-color: whitesmoke;
+}
+
+/*  *** SECTION 3: REGISTRATION *** */
+.nbs-form-dec {
+    background-color: #272727;
+    border: 4px solid;
+    border-color: #FFE400;
+}
+
+.nbs-registration-btn {
+    background-color: #FFE400;
+}
+
+.nbs-modal-dec {
+    background-color: #272727;
+    border: 4px solid;
+    border-color: #FFE400;
+    color: whitesmoke;
+}
+
+/* *** FOOTER *** */
+.nbs-footer-bg {
+    background-color: black;
+}
+
+.nbs-footer-card-dec {
+    background-color: transparent;
+}
+
+.nbs-getintouch-icon-dec {
+    color: #FF652F;
+}
+
+.nbs-socialm-icon-dec {
+    color: #FF652F;
+    font-size: 2rem;
+}
