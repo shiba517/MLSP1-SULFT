@@ -63,11 +63,11 @@
 .nbs-s1-bg {
     background-color: #272727;
     height: auto;
-    /* font-size: 1.5vh; */
 }
 
 .nbs-card-dec {
     background-color: #FFE400;
+    height: 22rem;
     height: 22rem;
 }
 
@@ -137,6 +137,36 @@
     font-size: 2rem;
 }
 
-.nbs-footer-test {
-    align-items: flex-start;
+
+/* *** CHANGES WHEN SCREEN SIZE IS LG+ *** */
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4rem;
+    }
+    /* *** SECTION 1 - HOW IT WORKS *** */
+    #how-it-works h2 {
+        font-size: 3rem;
+    }
+
+    #how-it-works h3 {
+        font-size: 2rem;
+    }
+
+    #how-it-works i {
+        font-size: 4rem;
+    }
+
+    #how-it-works {
+        font-size: 1.2rem;
+    }
+
+    /*  *** SECTION 2 - GALLERY *** */
+    #gallery h2 {
+        font-size: 3rem;
+    }
+
+    /*  *** SECTION 3 - REGISTRATION *** */
+    #registration h2 {
+        font-size: 3rem;
+    }
 }
