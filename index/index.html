@@ -16,7 +16,7 @@
 <body>
     <header>
         <!-- *** NAVIGATION BAR (beg.) *** -->
-        <nav class="navbar navbar-expand-lg navbar-dark p nbs-nav-dec">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top nbs-nav-dec">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img class="nbs-nav-logo-dec" src="../assets\images\sulft-logo.png" alt="">
@@ -49,12 +49,14 @@
         <!-- *** NAVIGATION BAR (end) *** -->
 
         <!-- *** HOME PAGE (beg.) *** -->
-        <div id="home" class="container-fluid nbs-home-bg">
-            <div class="row text-center d-flex justify-content-center align-items-center h-100">
-                <div class="col">
-                    <h1 class="text-uppercase nbs-colourTheme-whitish">secret undergound lockdown football tournament</h1>
-                    <p class="nbs-colourTheme-yellowish">you thought it was all over, we didn't</p>
-                    <a href="#registration"><button class="btn btn-lg nbs-btn-dec">Register</button></a>
+        <div class="container-fluid nbs-home-bg">
+            <div id="home" class="container-xl d-flex justify-content-center align-items-center h-100">
+                <div class="row text-center">
+                    <div class="col">
+                        <h1 class="text-uppercase nbs-colourTheme-whitish">secret undergound lockdown football tournament</h1>
+                        <p class="nbs-colourTheme-yellowish nbs-header-p-dec">you thought it was all over, we didn't</p>
+                        <a href="#registration"><button class="btn btn-lg nbs-btn-dec">Register</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,45 +65,47 @@
 
     <section>
         <!-- *** SECTION 1 - HOW IT WORKS (beg.) *** -->
-        <div id="how-it-works" class="container-fluid nbs-s1-bg py-4">
-            <div class="row text-center">
-                <h2 class="text-uppercase nbs-colourTheme-whitish mb-4 nbs-h2-dec">how it works</h2>
-                <div class="offset-1 col-10 offset-md-2 col-md-4 gy-md-2">
-                    <div class="card nbs-card-dec mb-3">
-                        <div class="card-body">
-                            <h3 class="card-title text-uppercase">step 1</h3>
-                            <p><i class="fas fa-dumbbell nbs-card-icon-dec mb-3"></i></p>
-                            <p class="card-text d-flex justify-content-center align-items-center">Gather you and 5 of your best players, choose your Capitano, and have him register the team. We'll call him with the date, time and location.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="offset-1 col-10 offset-md-0 col-md-4 gy-md-2">
-                    <div class="card nbs-card-dec mb-3">
-                        <div class="card-body">
-                            <h3 class="card-title text-uppercase">step 2</h3>
-                            <p><i class="fab fa-teamspeak nbs-card-icon-dec mb-3"></i></p>
-                            <p class="card-text d-flex justify-content-center align-items-center">Still have the nerves? Get your gear ready and turn up. The secret FA associates will pit you up with a random team. No turning back from here!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="offset-1 col-10 offset-md-2 col-md-4 gy-md-2">
-                    <div class="card nbs-card-dec mb-3">
-                        <div class="card-body">
-                            <h3 class="card-title text-uppercase">step 3</h3>
-                            <p><i class="far fa-futbol nbs-card-icon-dec mb-3"></i></p>
-                            <div nbs-card-p-dec>
-                                <p class="card-text d-flex justify-content-center align-items-center">Dreams can turn into nighmares at this point; but that's upto you. 3 group games, semi-final and if you're good enough... the FINAL!</p>
+        <div class="container-fluid nbs-s1-bg">
+            <div id="how-it-works" class="container-xl py-4">
+                <div class="row text-center">
+                    <h2 class="text-uppercase nbs-colourTheme-whitish mt-5 mb-5">how it works</h2>
+                    <div class="offset-1 col-10 offset-md-2 col-md-4 gy-md-2">
+                        <div class="card nbs-card-dec mb-3">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase">step 1</h3>
+                                <p><i class="fas fa-dumbbell nbs-card-icon-dec mb-3"></i></p>
+                                <p class="card-text d-flex justify-content-center align-items-center">Gather you and 5 of your best players, choose your Capitano, and have him register the team. We'll call him with the date, time and location.</p>
                             </div>
-                            
                         </div>
                     </div>
-                </div>
-                <div class="offset-1 col-10 offset-md-0 col-md-4 gy-md-2">
-                    <div class="card nbs-card-dec mb-3">
-                        <div class="card-body">
-                            <h3 class="card-title text-uppercase">step 4</h3>
-                            <p><i class="fas fa-trophy nbs-card-icon-dec mb-3"></i></p>
-                            <p class="card-text d-flex justify-content-center align-items-center">The last test. It's simple. Win the final, lift the trophy, recieve a £1,000 each and declare yourself as the Secret Underground Lockdown Football CHAMPIONS!!!</p>
+                    <div class="offset-1 col-10 offset-md-0 col-md-4 gy-md-2">
+                        <div class="card nbs-card-dec mb-3">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase">step 2</h3>
+                                <p><i class="fab fa-teamspeak nbs-card-icon-dec mb-3"></i></p>
+                                <p class="card-text d-flex justify-content-center align-items-center">Still have the nerves? Get your gear ready and turn up. The secret FA associates will pit you up with a random team. No turning back from here!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offset-1 col-10 offset-md-2 col-md-4 gy-md-2">
+                        <div class="card nbs-card-dec mb-3">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase">step 3</h3>
+                                <p><i class="far fa-futbol nbs-card-icon-dec mb-3"></i></p>
+                                <div nbs-card-p-dec>
+                                    <p class="card-text d-flex justify-content-center align-items-center">Dreams can turn into nighmares at this point; but that's upto you. 3 group games, semi-final and if you're good enough... the FINAL!</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offset-1 col-10 offset-md-0 col-md-4 gy-md-2">
+                        <div class="card nbs-card-dec mb-3">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase">step 4</h3>
+                                <p><i class="fas fa-trophy nbs-card-icon-dec mb-3"></i></p>
+                                <p class="card-text d-flex justify-content-center align-items-center">The last test. It's simple. Win the final, lift the trophy, recieve a £1,000 each and declare yourself as the Secret Underground Lockdown Football CHAMPIONS!!!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -112,89 +116,92 @@
 
     <section>
         <!-- *** SECTION 2 & 3 - GALLERY & REGISTRATION *** (beg.)  -->
-        <div class="container-fluid py-4 nbs-container-height nbs-relative">
-            <div class="nbs-absolute nbs-s2s3-bg"></div>
-            <div class="nbs-absolute nbs-s2s3-overlay"></div>
+        <div class="container-fluid nbs-container-height nbs-relative pt-4 pb-5">
+            <div class="container-fluid nbs-absolute nbs-s2s3-bg"></div>
+            <div class="container-fluid nbs-absolute nbs-s2s3-overlay"></div>
             <!-- *** SECTION 2: GALLERY (beg.) -->
-            <div id="gallery" class="row">
-                <div class="nbs-relative">
-                    <h2 class="text-uppercase text-center nbs-colourTheme-whitish mb-4">gallery</h2>
-                    <div class="col-12 offset-md-1 col-md-10 offset-xl-2 col-xl-8">
-                        <div id="carouselExampleControls" class="carousel slide nbs-carousel-dec" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active " data-bs-interval="3000">
-                                    <img class="d-block w-100" src="../assets/images/carousel-images/rs - ball on spot.jpg" alt="Image 1">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3000">
-                                    <img class="d-block w-100 h-100" src="../assets/images/carousel-images/rs - tackle.jpg" alt="Image 1">
-                                </div>
-                                <div class="carousel-item" data-bs-interval="3000">
-                                    <img class="d-block w-100 h-100"
-                                        src="../assets/images/carousel-images/rs pitch from worms eye view.jpg" alt="Image 1">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>               
-            </div>
-            <!-- *** SECTION 2: GALLERY (end) -->
-            <!-- *** SECTION 3: REGISTRATION (beg.) -->
-            <div id="registration" class="row mt-5">
-                <div class="nbs-relative">
-                    <h2 class="text-uppercase text-center nbs-colourTheme-whitish mb-4">registration</h2>
-                    <div class="offset-1 col-10 offset-md-2 col-md-8 offset-xl-2 col-xl-8">
-                        <form class="nbs-form-dec py-3 px-3" action="">
-                            <div class="mt-2">
-                                <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userName">Name</label>
-                                <input class="form-control" type="text" name="userName" id="userName">
-                            </div>
-                            <div class="mt-2">
-                                <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userEmail">Email</label>
-                                <input class="form-control" type="email" name="userEmail" id="userEmail">
-                            </div>
-                            <div class="mt-2">
-                                <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0"
-                                    for="userMobile">Mobile</label>
-                                <input class="form-control" type="tel" name="userMobile" id="userMobile">
-                            </div>
-                            <div class="mt-2">
-                                <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userTeamname">Team
-                                    name</label>
-                                <input class="form-control" type="text" name="userTeamname" id="userTeamname">
-                            </div>
-                            <div class="mt-2">
-                                <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userReady">Are you up for
-                                    the gruel?</label>
-                                <br>
-                                <input class="form-check-input" type="radio" name="userReadyYes" id="userReady">Yes
-                                <input class="form-check-input" type="radio" name="userReadyNo" id="userReady">No
-                            </div>
-                            <div class="text-center mt-2">
-                                <button class="btn btn-lg nbs-registration-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#registrationCompleteModal" >Register</button>
-                            </div>
-                            <div class="text-center mt-2 nbs-colourTheme-whitish">
-                                <p><small>**Please be aware that we will not be responsible or held liable for any shame caused by
-                                        elimination or any broken bones from the town guards if they show up.**</small></p>
-                            </div>
-                        </form>
-                        <!-- *** MODAL (beg.) *** -->
-                        <div class="modal fade" id="registrationCompleteModal" tabindex="-1" aria-labelledby="registrationCompleteModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content nbs-modal-dec">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title nbs-colourTheme-yellowish" id="registrationCompleteModalLabel">Registration completed!</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container-xl">
+                <div id="gallery" class="row">
+                    <div class="nbs-relative">
+                        <h2 class="text-uppercase text-center nbs-colourTheme-whitish mb-5 mt-5">gallery</h2>
+                        <div class="col-12 offset-md-1 col-md-10 offset-xl-2 col-xl-8">
+                            <div id="carouselExampleControls" class="carousel slide nbs-carousel-dec" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active " data-bs-interval="3000">
+                                        <img class="d-block w-100" src="../assets/images/carousel-images/rs - ball on spot.jpg" alt="Image 1">
                                     </div>
-                                    <div class="modal-body ">
-                                        <p class="">You're in! It's gonna be a tough tournament so get your team mates prepared properly. Fancy green high ankled trainers, a 'vintage' football top or rolled down socks won't hide your skill level. This is a proper game; It's time to show your worth <i class="fas fa-fist-raised nbs-colourTheme-orangish"></i></p>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img class="d-block w-100 h-100" src="../assets/images/carousel-images/rs - tackle.jpg" alt="Image 1">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img class="d-block w-100 h-100"
+                                            src="../assets/images/carousel-images/rs pitch from worms eye view.jpg" alt="Image 1">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- *** MODAL (end) *** -->
+                    </div>               
+                </div>
+                <!-- *** SECTION 2: GALLERY (end) -->
+                <!-- *** SECTION 3: REGISTRATION (beg.) -->
+                <div id="registration" class="row mt-5">
+                    <div class="nbs-relative">
+                        <h2 class="text-uppercase text-center nbs-colourTheme-whitish mb-5 mt-5">registration</h2>
+                        <div class="offset-1 col-10 offset-md-2 col-md-8 offset-xl-2 col-xl-8">
+                            <form class="nbs-form-dec py-3 px-3" action="">
+                                <div class="mt-2">
+                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userName">Name</label>
+                                    <input class="form-control" type="text" name="userName" id="userName">
+                                </div>
+                                <div class="mt-2">
+                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userEmail">Email</label>
+                                    <input class="form-control" type="email" name="userEmail" id="userEmail">
+                                </div>
+                                <div class="mt-2">
+                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0"
+                                        for="userMobile">Mobile</label>
+                                    <input class="form-control" type="tel" name="userMobile" id="userMobile">
+                                </div>
+                                <div class="mt-2">
+                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userTeamname">Team
+                                        name</label>
+                                    <input class="form-control" type="text" name="userTeamname" id="userTeamname">
+                                </div>
+                                <div class="mt-2">
+                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userReady">Are you up for
+                                        the gruel?</label>
+                                    <br>
+                                    <input class="form-check-input" type="radio" name="userReadyYes" id="userReady">Yes
+                                    <input class="form-check-input" type="radio" name="userReadyNo" id="userReady">No
+                                </div>
+                                <div class="text-center mt-2">
+                                    <button class="btn btn-lg nbs-registration-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#registrationCompleteModal" >Register</button>
+                                </div>
+                                <div class="text-center mt-2 nbs-colourTheme-whitish">
+                                    <p><small>**Please be aware that we will not be responsible or held liable for any shame caused by
+                                            elimination or any broken bones from the town guards if they show up.**</small></p>
+                                </div>
+                            </form>
+                            <!-- *** MODAL (beg.) *** -->
+                            <div class="modal fade" id="registrationCompleteModal" tabindex="-1" aria-labelledby="registrationCompleteModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content nbs-modal-dec">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title nbs-colourTheme-yellowish" id="registrationCompleteModalLabel">Registration completed!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <p class="">You're in! It's gonna be a tough tournament so get your team mates prepared properly. Fancy green high ankled trainers, a 'vintage' football top or rolled down socks won't hide your skill level. This is a proper game; It's time to show your worth <i class="fas fa-fist-raised nbs-colourTheme-orangish"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- *** MODAL (end) *** -->
+                        </div>
                     </div>
                 </div>
             </div>
+            
             <!-- *** SECTION 3: REGISTRATION (end) -->
         </div>
         
@@ -203,36 +210,39 @@
 
     <footer>
         <!-- *** FOOTER: ABOUT US *** (beg.) -->
-        <div id="about-us" class="container-fluid nbs-footer-bg py-3 nbs-relative">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div class="card nbs-footer-card-dec">
-                        <div class="card-body text-center">
-                            <h2 class="card-title text-uppercase nbs-colourTheme-yellowish mb-3">About us</h2>
-                            <p class="card-text nbs-colourTheme-whitish">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>
+        <div class="container-fluid nbs-footer-bg">
+            <div id="about-us" class="container-xl nbs-footer-bg nbs-relative py-5">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="card nbs-footer-card-dec">
+                            <div class="card-body text-center">
+                                <h2 class="card-title text-uppercase nbs-colourTheme-yellowish mb-3">About us</h2>
+                                <p class="card-text nbs-colourTheme-whitish">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="card nbs-footer-card-dec">
-                        <div class="card-body text-center">
-                            <h2 class="card-title text-uppercase nbs-colourTheme-yellowish mt-4 mb-3 mt-md-0">Get in touch</h2>
-                            <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-home nbs-getintouch-icon-dec"></i> 01 SUNLFT House, Office Street, London, WC1 96TC</p>
-                            <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-phone nbs-getintouch-icon-dec"></i> 0206 946 5739</p>
-                            <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-envelope nbs-getintouch-icon-dec"></i> sunlft@randommail.com</p>
-                            <div class="nbs-socialm-icon-dec">
-                                <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-facebook"></i></p>
-                                <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-instagram"></i></p>
-                                <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-twitter"></i></p>
-                                <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-youtube"></i></p>
+                    <div class="col-12 col-md-6">
+                        <div class="card nbs-footer-card-dec">
+                            <div class="card-body text-center">
+                                <h2 class="card-title text-uppercase nbs-colourTheme-yellowish mt-4 mb-3 mt-md-0">Get in touch</h2>
+                                <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-home nbs-getintouch-icon-dec"></i> 01 SUNLFT House, Office Street, London, WC1 96TC</p>
+                                <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-phone nbs-getintouch-icon-dec"></i> 0206 946 5739</p>
+                                <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-envelope nbs-getintouch-icon-dec"></i> sunlft@randommail.com</p>
+                                <div class="nbs-socialm-icon-dec">
+                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-facebook"></i></p>
+                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-instagram"></i></p>
+                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-twitter"></i></p>
+                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-youtube"></i></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
         <!-- *** FOOTER: ABOUT US *** (end) -->
     </footer>
 

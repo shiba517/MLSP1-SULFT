@@ -26,10 +26,6 @@
     position: absolute;
 }
 
-.nbs-border {
-    background-color: green;
-}
-
 .nbs-container-height {
     height: 100%;
 }
@@ -58,21 +54,23 @@
     background-color: #FFE400;
 }
 
-
 /* *** SECTION 1 - HOW IT WORKS *** */
 .nbs-s1-bg {
     background-color: #272727;
-    height: auto;
+    min-height: auto
 }
 
 .nbs-card-dec {
     background-color: #FFE400;
     height: 22rem;
-    height: 22rem;
 }
 
 .nbs-card-icon-dec {
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+#how-it-works p {
+    /* font-size: 1.1rem; */
 }
 
 /* *** SECTION 2 & 3 */
@@ -140,26 +138,58 @@
 
 /* *** CHANGES WHEN SCREEN SIZE IS LG+ *** */
 @media (min-width: 992px) {
+    /* *** UNIVERSAL *** */
     h1 {
         font-size: 4rem;
     }
+
+    /* *** HOME PAGE *** */
+    .nbs-header-p-dec {
+        font-size: 1.6rem;
+    }
+
+    .btn-lg {
+        font-size: 2rem;
+        font-weight: 450;
+    }
+
     /* *** SECTION 1 - HOW IT WORKS *** */
     #how-it-works h2 {
         font-size: 3rem;
     }
 
     #how-it-works h3 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     #how-it-works i {
-        font-size: 4rem;
+        font-size: 4.5rem;
+    }
+
+    #how-it-works p {
+        font-size: 1.5rem;
     }
 
     #how-it-works {
         font-size: 1.2rem;
     }
 
+    .nbs-s1-bg {
+        background-color: #272727;
+        min-height: 80vh;
+    }
+    
+    .nbs-card-dec {
+        background-color: #FFE400;
+        height: 22rem;
+        min-height: 26rem;
+    }
+    
+    .nbs-card-icon-dec {
+        font-size: 3rem;
+    }
+
+    
     /*  *** SECTION 2 - GALLERY *** */
     #gallery h2 {
         font-size: 3rem;
@@ -169,4 +199,22 @@
     #registration h2 {
         font-size: 3rem;
     }
+
+    #registration label {
+        font-size: 1.5rem;
+    }
+
+    /* *** FOOTER - ABOUT US *** */
+}
+
+/* *** CHANGES WHEN SREEN SIZE IS XL+ *** */
+@media (min-width: 1200px) {
+    /* *** HOME PAGE *** */
+    .nbs-home-bg {
+        background-position: bottom center;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1400px) {
 }
