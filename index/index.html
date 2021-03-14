@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Compete in a secret football tournament during lockdown!">
+    <meta name="keywords" content="css, html, bootstrap, code institute, milestone porject 1, camelot, football, tounrnament, secret, lockdown">  
+    <meta name="author" content="Shiba Deb">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
@@ -18,8 +22,8 @@
         <!-- *** NAVIGATION BAR (beg.) *** -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top nbs-nav-dec">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img class="nbs-nav-logo-dec" src="../assets\images\sulft-logo.png" alt="">
+                <a class="navbar-brand" href="#home">
+                    <img class="nbs-nav-logo-dec" src="../assets\images\sulft-logo.png" alt="Website logo" aria-label="Takes user to the 'Home'/header section">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,19 +32,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#" alt="Go to home page" aria-label="Takes user to the 'Home'/header section">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#how-it-works">How it works</a>
+                            <a class="nav-link" href="#how-it-works" alt="Go to 'How it works' section" aria-label="Takes user to the 'How it works' section">How it works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery">Gallery</a>
+                            <a class="nav-link" href="#gallery" alt="Go to 'Gallery' section" aria-label="Takes user to the 'Gallery' section">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#registration">Registration</a>
+                            <a class="nav-link" href="#registration" alt="Go to 'Registration' section" aria-label="Takes user to the 'Registration' section">Registration</a>
                         </li>   
                         <li class="nav-item">
-                            <a class="nav-link" href="#about-us">About</a>
+                            <a class="nav-link" href="#about-us" alt="Go to 'About us' section" aria-label="Takes user to the 'About us'/footer section">About us</a>
                         </li>                     
                     </ul>
                 </div>
@@ -49,13 +53,13 @@
         <!-- *** NAVIGATION BAR (end) *** -->
 
         <!-- *** HOME PAGE (beg.) *** -->
-        <div class="container-fluid nbs-home-bg">
+        <div class="container-fluid nbs-home-bg" aria-labelledby="home">
             <div id="home" class="container-xl d-flex justify-content-center align-items-center h-100">
                 <div class="row text-center">
                     <div class="col">
-                        <h1 class="text-uppercase nbs-colourTheme-whitish">secret undergound lockdown football tournament</h1>
+                        <h1 class="text-uppercase nbs-colourTheme-whitish">secret underground lockdown football tournament</h1>
                         <p class="nbs-colourTheme-yellowish nbs-header-p-dec">you thought it was all over, we didn't</p>
-                        <a href="#registration"><button class="btn btn-lg nbs-btn-dec">Register</button></a>
+                        <a href="#registration"><button class="btn btn-lg nbs-btn-dec" aria-label="Takes user to the 'Registration' section">Register</button></a>
                     </div>
                 </div>
             </div>
@@ -65,7 +69,7 @@
 
     <section>
         <!-- *** SECTION 1 - HOW IT WORKS (beg.) *** -->
-        <div class="container-fluid nbs-s1-bg">
+        <div class="container-fluid nbs-s1-bg" aria-labelledby="how-it-works">
             <div id="how-it-works" class="container-xl py-4">
                 <div class="row text-center">
                     <h2 class="text-uppercase nbs-colourTheme-whitish mt-5 mb-5">how it works</h2>
@@ -120,7 +124,7 @@
             <div class="container-fluid nbs-absolute nbs-s2s3-bg"></div>
             <div class="container-fluid nbs-absolute nbs-s2s3-overlay"></div>
             <!-- *** SECTION 2: GALLERY (beg.) -->
-            <div class="container-xl">
+            <div class="container-xl" aria-labelledby="gallery registration">
                 <div id="gallery" class="row">
                     <div class="nbs-relative">
                         <h2 class="text-uppercase text-center nbs-colourTheme-whitish mb-5 mt-5">gallery</h2>
@@ -128,14 +132,14 @@
                             <div id="carouselExampleControls" class="carousel slide nbs-carousel-dec" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active " data-bs-interval="3000">
-                                        <img class="d-block w-100" src="../assets/images/carousel-images/rs - ball on spot.jpg" alt="Image 1">
+                                        <img class="d-block w-100" src="../assets/images/carousel-images/rs - ball on spot.jpg" alt="Ball on the kick-off spot">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3000">
-                                        <img class="d-block w-100 h-100" src="../assets/images/carousel-images/rs - tackle.jpg" alt="Image 1">
+                                        <img class="d-block w-100 h-100" src="../assets/images/carousel-images/rs - tackle.jpg" alt="Two legs going for the ball">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3000">
                                         <img class="d-block w-100 h-100"
-                                            src="../assets/images/carousel-images/rs pitch from worms eye view.jpg" alt="Image 1">
+                                            src="../assets/images/carousel-images/rs pitch from worms eye view.jpg" alt="View of pitch from a worms eye view">
                                     </div>
                                 </div>
                             </div>
@@ -151,31 +155,32 @@
                             <form class="nbs-form-dec py-3 px-3" action="">
                                 <div class="mt-2">
                                     <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userName">Name</label>
-                                    <input class="form-control" type="text" name="userName" id="userName">
+                                    <input class="form-control" type="text" name="userName" id="userName" required>
                                 </div>
                                 <div class="mt-2">
                                     <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userEmail">Email</label>
-                                    <input class="form-control" type="email" name="userEmail" id="userEmail">
+                                    <input class="form-control" type="email" name="userEmail" id="userEmail" required>
                                 </div>
                                 <div class="mt-2">
                                     <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0"
                                         for="userMobile">Mobile</label>
-                                    <input class="form-control" type="tel" name="userMobile" id="userMobile">
+                                    <input class="form-control" type="tel" name="userMobile" id="userMobile" required>
                                 </div>
                                 <div class="mt-2">
                                     <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userTeamname">Team
                                         name</label>
-                                    <input class="form-control" type="text" name="userTeamname" id="userTeamname">
+                                    <input class="form-control" type="text" name="userTeamname" id="userTeamname" required>
                                 </div>
                                 <div class="mt-2">
-                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userReady">Are you up for
-                                        the gruel?</label>
+                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userReady">Are you up for the gruel?</label>
                                     <br>
-                                    <input class="form-check-input" type="radio" name="userReadyYes" id="userReady">Yes
-                                    <input class="form-check-input" type="radio" name="userReadyNo" id="userReady">No
+                                    <div class="nbs-colourTheme-whitish nbs-form-radio-text">
+                                        <input class="form-check-input mw-1 me-1" type="radio" name="userReadyYes" id="userReady" value="Yes" required>Yes
+                                        <input class="form-check-input mw-1 me-1" type="radio" name="userReadyNo" id="userReady" value="No" required>No
+                                    </div>                                  
                                 </div>
                                 <div class="text-center mt-2">
-                                    <button class="btn btn-lg nbs-registration-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#registrationCompleteModal" >Register</button>
+                                    <button class="btn btn-lg nbs-registration-btn mt-2" type="button" data-bs-toggle="modal" data-bs-target="#registrationCompleteModal" aria-label="Records the details the user has entered in the form" >Register</button>
                                 </div>
                                 <div class="text-center mt-2 nbs-colourTheme-whitish">
                                     <p><small>**Please be aware that we will not be responsible or held liable for any shame caused by
@@ -210,7 +215,7 @@
 
     <footer>
         <!-- *** FOOTER: ABOUT US *** (beg.) -->
-        <div class="container-fluid nbs-footer-bg">
+        <div class="container-fluid nbs-footer-bg" aria-labelledby="about-us">
             <div id="about-us" class="container-xl nbs-footer-bg nbs-relative py-5">
                 <div class="row">
                     <div class="col-12 col-md-6">
@@ -231,10 +236,14 @@
                                 <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-phone nbs-getintouch-icon-dec"></i> 0206 946 5739</p>
                                 <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-envelope nbs-getintouch-icon-dec"></i> sunlft@randommail.com</p>
                                 <div class="nbs-socialm-icon-dec">
-                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-facebook"></i></p>
-                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-instagram"></i></p>
-                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-twitter"></i></p>
-                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec"><i class="fab fa-youtube"></i></p>
+                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec">
+                                        <a href="https://en-gb.facebook.com/" target="_blank" rel="external" alt="Facebook icon" aria-label="Goes to Facebook page"><i class="fab fa-facebook nbs-socialm-icon-dec"></i></a></p>
+                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec">
+                                        <a href="https://www.instagram.com/" target="_blank" rel="external" alt="Instagram icon" aria-label="Goes to Instagram page"><i class="fab fa-instagram nbs-socialm-icon-dec"></i></a></p>
+                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec">
+                                        <a href="https://twitter.com/?lang=en-gb" target="_blank" rel="external" alt="Twitter icon" aria-label="Goes to Twitter page"><i class="fab fa-twitter nbs-socialm-icon-dec"></i></a></p>
+                                    <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec">
+                                        <a href="https://www.youtube.com/" target="_blank" rel="external" alt="YouTube icon" aria-label="Goes to YouTube page"><i class="fab fa-youtube nbs-socialm-icon-dec"></i></a></p>
                                 </div>
                             </div>
                         </div>
