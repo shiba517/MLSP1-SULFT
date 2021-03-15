@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top nbs-nav-dec">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#home">
-                    <img class="nbs-nav-logo-dec" src="../assets\images\sulft-logo.png" alt="Website logo" aria-label="Takes user to the 'Home'/header section">
+                    <img class="nbs-nav-logo-dec" src="../assets/images/sulft-logo.png" alt="Website logo" aria-label="Takes user to the 'Home'/header section">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,19 +32,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#" alt="Go to home page" aria-label="Takes user to the 'Home'/header section">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#" aria-label="Takes user to the 'Home'/header section">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#how-it-works" alt="Go to 'How it works' section" aria-label="Takes user to the 'How it works' section">How it works</a>
+                            <a class="nav-link" href="#how-it-works" aria-label="Takes user to the 'How it works' section">How it works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery" alt="Go to 'Gallery' section" aria-label="Takes user to the 'Gallery' section">Gallery</a>
+                            <a class="nav-link" href="#gallery" aria-label="Takes user to the 'Gallery' section">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#registration" alt="Go to 'Registration' section" aria-label="Takes user to the 'Registration' section">Registration</a>
+                            <a class="nav-link" href="#registration" aria-label="Takes user to the 'Registration' section">Registration</a>
                         </li>   
                         <li class="nav-item">
-                            <a class="nav-link" href="#about-us" alt="Go to 'About us' section" aria-label="Takes user to the 'About us'/footer section">About us</a>
+                            <a class="nav-link" href="#about-us" aria-label="Takes user to the 'About us'/footer section">About us</a>
                         </li>                     
                     </ul>
                 </div>
@@ -59,7 +59,7 @@
                     <div class="col">
                         <h1 class="text-uppercase nbs-colourTheme-whitish">secret underground lockdown football tournament</h1>
                         <p class="nbs-colourTheme-yellowish nbs-header-p-dec">you thought it was all over, we didn't</p>
-                        <a href="#registration"><button class="btn btn-lg nbs-btn-dec" aria-label="Takes user to the 'Registration' section">Register</button></a>
+                        <button class="btn btn-lg nbs-btn-dec" aria-label="Takes user to the 'Registration' section">Registration</button>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                             <div class="card-body">
                                 <h3 class="card-title text-uppercase">step 3</h3>
                                 <p><i class="far fa-futbol nbs-card-icon-dec mb-3"></i></p>
-                                <div nbs-card-p-dec>
+                                <div class="nbs-card-p-dec">
                                     <p class="card-text d-flex justify-content-center align-items-center">Dreams can turn into nighmares at this point; but that's upto you. 3 group games, semi-final and if you're good enough... the FINAL!</p>
                                 </div>
                                 
@@ -132,14 +132,14 @@
                             <div id="carouselExampleControls" class="carousel slide nbs-carousel-dec" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active " data-bs-interval="3000">
-                                        <img class="d-block w-100" src="../assets/images/carousel-images/rs - ball on spot.jpg" alt="Ball on the kick-off spot">
+                                        <img class="d-block w-100" src="../assets/images/carousel-images/rs-ball-on-spot.jpg" alt="Ball on the kick-off spot">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3000">
-                                        <img class="d-block w-100 h-100" src="../assets/images/carousel-images/rs - tackle.jpg" alt="Two legs going for the ball">
+                                        <img class="d-block w-100 h-100" src="../assets/images/carousel-images/rs-tackle.jpg" alt="Two legs going for the ball">
                                     </div>
                                     <div class="carousel-item" data-bs-interval="3000">
                                         <img class="d-block w-100 h-100"
-                                            src="../assets/images/carousel-images/rs pitch from worms eye view.jpg" alt="View of pitch from a worms eye view">
+                                            src="../assets/images/carousel-images/rs-pitch-from-worms-eye-view.jpg" alt="View of pitch from a worms eye view">
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                     <div class="nbs-relative">
                         <h2 class="text-uppercase text-center nbs-colourTheme-whitish mb-5 mt-5">registration</h2>
                         <div class="offset-1 col-10 offset-md-2 col-md-8 offset-xl-2 col-xl-8">
-                            <form class="nbs-form-dec py-3 px-3" action="">
+                            <form class="nbs-form-dec py-3 px-3">
                                 <div class="mt-2">
                                     <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userName">Name</label>
                                     <input class="form-control" type="text" name="userName" id="userName" required>
@@ -172,11 +172,13 @@
                                     <input class="form-control" type="text" name="userTeamname" id="userTeamname" required>
                                 </div>
                                 <div class="mt-2">
-                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userReady">Are you up for the gruel?</label>
+                                    <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0">Are you up for the gruel?</label>
                                     <br>
                                     <div class="nbs-colourTheme-whitish nbs-form-radio-text">
-                                        <input class="form-check-input mw-1 me-1" type="radio" name="userReadyYes" id="userReady" value="Yes" required>Yes
-                                        <input class="form-check-input mw-1 me-1" type="radio" name="userReadyNo" id="userReady" value="No" required>No
+                                        <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userReadyYes">Yes</label>
+                                        <input class="form-check-input mw-1 me-1" type="radio" name="userReadyYes" id="userReadyYes" value="Yes" required>
+                                        <label class="form-label text-uppercase nbs-colourTheme-whitish mb-0" for="userReadyNo">No</label>
+                                        <input class="form-check-input mw-1 me-1" type="radio" name="userReadyNo" id="userReadyNo" value="No" required>
                                     </div>                                  
                                 </div>
                                 <div class="text-center mt-2">
@@ -237,13 +239,13 @@
                                 <p class="card-text nbs-colourTheme-whitish"><i class="fas fa-envelope nbs-getintouch-icon-dec"></i> sunlft@randommail.com</p>
                                 <div class="nbs-socialm-icon-dec">
                                     <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec">
-                                        <a href="https://en-gb.facebook.com/" target="_blank" rel="external" alt="Facebook icon" aria-label="Goes to Facebook page"><i class="fab fa-facebook nbs-socialm-icon-dec"></i></a></p>
+                                        <a href="https://en-gb.facebook.com/" target="_blank" rel="external" aria-label="Goes to Facebook page"><i class="fab fa-facebook nbs-socialm-icon-dec"></i></a></p>
                                     <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec">
-                                        <a href="https://www.instagram.com/" target="_blank" rel="external" alt="Instagram icon" aria-label="Goes to Instagram page"><i class="fab fa-instagram nbs-socialm-icon-dec"></i></a></p>
+                                        <a href="https://www.instagram.com/" target="_blank" rel="external" aria-label="Goes to Instagram page"><i class="fab fa-instagram nbs-socialm-icon-dec"></i></a></p>
                                     <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec">
-                                        <a href="https://twitter.com/?lang=en-gb" target="_blank" rel="external" alt="Twitter icon" aria-label="Goes to Twitter page"><i class="fab fa-twitter nbs-socialm-icon-dec"></i></a></p>
+                                        <a href="https://twitter.com/?lang=en-gb" target="_blank" rel="external" aria-label="Goes to Twitter page"><i class="fab fa-twitter nbs-socialm-icon-dec"></i></a></p>
                                     <p class="my-1 d-inline-block gx-3 nbs-socialm-icon-dec">
-                                        <a href="https://www.youtube.com/" target="_blank" rel="external" alt="YouTube icon" aria-label="Goes to YouTube page"><i class="fab fa-youtube nbs-socialm-icon-dec"></i></a></p>
+                                        <a href="https://www.youtube.com/" target="_blank" rel="external" aria-label="Goes to YouTube page"><i class="fab fa-youtube nbs-socialm-icon-dec"></i></a></p>
                                 </div>
                             </div>
                         </div>
