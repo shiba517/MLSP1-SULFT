@@ -117,7 +117,7 @@
 }
 
 .nbs-form-radio-text {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* *** FOOTER *** */
@@ -153,7 +153,6 @@
 
     .btn-lg {
         font-size: 2rem;
-        font-weight: 450;
     }
 
     /* *** SECTION 1 - HOW IT WORKS *** */

@@ -82,5 +82,50 @@ The imagery should represent football, secrecy and excitement; as the title of t
 
 ### Skeletal
 * Wireframes:
-    * Screensize of md+: [wireframe image](readme-images/wireframe-md+-screensize.png) 
-    * Mobile: [wireframe image](readme-images/wireframe-sm-screensize.png)
+    * Screensize of md and bigger: [wireframe image](readme-files/readme-images/wireframes/wireframe-md+-screensize.png) 
+    * Mobile: [wireframe image](readme-files/readme-images/wireframes/wireframe-sm-screensize.png)
+
+## Features
+### Current features
+* The website will be responsive on mobile, tablet and monitor devices. Some obvious and not so obvious parts of the website alter depending on screen size such as the positioning of the 'About us' and 'Get in touch' in the Footer
+* Clicking on the register button in the 'Registration' section has a modal linked to it. It contains a short message regarding letting the user know registration has been completed and joining the tournament. It should let known that the details entered doesnt actually get recorded due to the manner of the reason why this website has been made.  
+* A carousel component was used for the gallery section which changes pictures on its own left to right every few seconds.
+* The navigation bar always stays at the top of the page no matter where you are on the website
+
+### Future features
+* The form in the 'Registration' section will be able to submit and record
+* The possibility of being able to see the next picture in the 'Gallery' section
+* The navigation burger toggle to untoggle once clocked on the link the user wants to go to. Curretnly, it stays open when a link is clicked
+
+## Technologies used
+* HTML
+* CSS
+* Bootstrap
+* Font awesome
+* GitHub
+* Gitpod
+* Balsamiq
+* Free Logo Design
+* Unsplash
+
+## Testing
+
+### Cross platform testing
+AIM | mobile | tablet | laptop/PC
+--- | --- | --- | ---
+'Home' link in the navbar leads to header/#Home | yes | yes | yes
+'How it works' link in the navbar leads to first section/#how-it-works | yes | yes | yes
+'Gallery' link in the navbar leads to second section/#gallery | yes | yes | yes
+'Registration' link in the navbar leads to second section/#registration | yes | yes | yes
+'About us' link in the navbar leads to footer/#footer-aboutus-and-getintouch | yes | yes | yes
+The website logo in the far left of the navbar leads to header/#Home | yes | yes | yes
+Navbar toggle option only appears on a mobile or tablet device | yes | yes | no
+Register button on header/#Home section leads to 'Registration' section | no | no | no
+Pictures in the 'Gallery' section change every few seconds | yes | yes | yes
+A modal appears when clicking on the register button on the form in the 'Registration' section | yes | yes | yes
+Clicking on the facebook icon leads you to the facebook website on a new tab | yes | yes | yes
+Clicking on the instagram icon leads you to the instagram website on a new tab | yes | yes | yes
+Clicking on the twitter icon leads you to the twitter website on a new tab | yes | yes | yes
+Clicking on the youtube icon leads you to the youtube website on a new tab | yes | yes | yes
+
+### Validation
