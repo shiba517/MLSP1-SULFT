@@ -1,6 +1,8 @@
 ![website logo](assets/images/sulft-logo.png)
 # **Code Institute User-Centric Frontend Development Milestone Project 1 - Secret Underground Lockdown Football Tournament**
 
+[View live website](https://shiba517.github.io/MLSP1-SULFT/)
+
 ## **Project Aim**
 ---
 The town of Camelot is under a lockdown due to a terrible plague that has been killing thousands of its people day by day for the past three months. The locals have tried obeying the rules but as the moons go by, frustration grows and recently quicker as the dictotoral aporoach by the knights and their soldiers is getting too much. This has led to a small group of an underground group, The Merry Men, planning a a sequel to their football tournament which they held at a few villages away. Growing number of men are getting increasingly angry due to the absense of football, which was a triving hobby of the locals, and because of the current regime they are living under. The Merry Men can forsee a riot occuring if they don't have a channel to release their negative energy. 
@@ -169,3 +171,29 @@ I put the index.html and style.css file through a validator on the [W3C website]
 * style.css 
     * Attempt 1: [image](readme-files/readme-images/validators/rmsc-w3c-validator-css-without-errors.jpg)
 
+## Deployment
+---
+### GitHub page
+This website was deployed onto GitHub via the following steps:
+1. Login to your [GitHub](https://github.com/) account and created a new Repository
+3. Fill outthe relevant options such as 'Description', 'Add a README file'
+    * There is an option to use a template under the heading 'Repository template'; I chose a template given by [Code Institute](https://codeinstitute.net/). [image](readme-files/readme-images/deployment/rmss-deployment-repository-selecting-codeinstitue-template.jpg)
+3. Finally, click on the 'create repository' button at the end of the page to create a new repository
+4. Click on the 'Settings' button 
+5. Scroll down to the section 'GitHub pages'
+6. On the dropdown menu under the sub heading name of 'Source', click the option 'Master'. [image](readme-files/readme-images/deployment/rmss-deployment-repository-settings-githubpages-2.jpg)
+7. Finally, click on the 'save' button to create your new GitHub page
+8. Refresh the page and scroll down to the 'GitHub pages' section. Here you will find an officila link to your project GitHub website. [image](readme-files/readme-images/deployment/rmss-deployment-complete.jpg) 
+
+### Forking the Github repository
+It is possible to copy this repository to your own repository via the following steps:
+1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
+2. Near the top right of the screen, jusst below the dark banner, there will be a 'fork' botton. [image](readme-files/readme-images/deployment/rmss-deployment-locating-fork-button.jpg)
+3. You should now have available a copy of the repository in your own repository list
+
+### Making a local clone
+You can keep a copy of a repository on your own computing device via the following steps:
+1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
+2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
+3. When clicked on this button, there will be an option to donwload it via the link 'Download ZIP'
+4. Save it on your system and you will now have access to the repositpory away from the GitHub website
