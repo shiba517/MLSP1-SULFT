@@ -76,7 +76,7 @@ A nav bar that stays on top will help the user on from their first visit and esp
 ### Surface
 #### Design
 * Colour scheme:
-As the target audience will be of mainly young men, the colour scheme must have a cool and sporty look to it. A colour combination of mainly dark colours matched with some contrasting brighter colours will do the job. I have chosen a colour scheme consisting of a tone of black, grey, white and yellow.
+As the target audience will be of mainly young men, the colour scheme must have a cool and sporty look to it. A colour combination of mainly dark colours matched with some contrasting brighter colours will do the job. I have chosen a colour scheme consisting of a tone of black/grey(#272727, rgb(39, 39, 39)), white(whitesmoke), orange(#FF652F, rgb(255, 101, 47)) and yellow(#FFE400, rgb(255, 228, 0)).
 
 * Typography:
 I looked at a few font-style at [GoogleFonts](https://fonts.google.com/) and decided the original font-style is simple, doesn't distract the user and compliments the colour theme of the website best.
@@ -92,10 +92,10 @@ The imagery should represent football, secrecy and excitement; as the title of t
 ## **Features**
 ---
 ### Current features
-* The website will be responsive on mobile, tablet and monitor devices. Some obvious and not so obvious parts of the website alter depending on screen size such as the positioning of the 'About us' and 'Get in touch' in the Footer
-* Clicking on the register button in the 'Registration' section has a modal linked to it. It contains a short message regarding letting the user know registration has been completed and joining the tournament. It should let known that the details entered doesnt actually get recorded due to the manner of the reason why this website has been made.  
-* A carousel component was used for the gallery section which changes pictures on its own left to right every few seconds.
-* The navigation bar always stays at the top of the page no matter where you are on the website
+* The website will be responsive on mobile, tablet and monitor devices. Some obvious and not so obvious parts of the website alter depending on screen size such as the positioning of the 'About us' and 'Get in touch' in the Footer. [image on mobile](readme-files/readme-images/features/rmss-footer-sm-screen.jpg), [image on tablet screen and bigger](readme-files/readme-images/features/rmss-footer-md+-screen.jpg)
+* Clicking on the register button in the 'Registration' section has a modal linked to it. It contains a short message regarding letting the user know registration has been completed and joining the tournament. It should let known that the details entered doesnt actually get recorded due to the manner of the reason why this website has been made. [image](readme-files/readme-images/features/rmss-registration-modal-xl-screen.jpg)  
+* A carousel component was used for the gallery section which changes pictures on its own left to right every few seconds. [image](readme-files/readme-images/features/rmss-gallery-moving-section-md+-screen.jpg)
+* The navigation bar always stays at the top of the page no matter where you are on the website. [image](readme-files/readme-images/features/rmss-navbar-working-sm-screen.jpg)
 
 ### Future features
 * The form in the 'Registration' section will be able to submit and record
@@ -106,13 +106,15 @@ The imagery should represent football, secrecy and excitement; as the title of t
 ---
 * HTML
 * CSS
-* Bootstrap
-* Font awesome
-* GitHub
-* Gitpod
-* Balsamiq
-* Free Logo Design
-* Unsplash
+* Bootstrap - a mobile first library which was heavily used (https://getbootstrap.com/)
+* Font awesome - all icons were found and used from here (https://fontawesome.com/)
+* GitHub - where I deployed my project (https://github.com/)
+* Gitpod - where I typed and recorded my codes. Can be found via the GitHub website
+* Balsamiq - frameworks were made using their app/software (https://balsamiq.com/)
+* Free Logo Design - created the website logo from here (https://www.freelogodesign.org/)
+* Unsplash - where I found and used all images seen on this site (https://unsplash.com/)
+* Photos - an app which I used to resize selected images; mainly the images found in README.md. It is available on Windows 10.
+* W3C Markup Validator - used this website to detect any errors in my codes (https://validator.w3.org/)
 
 ## **Testing**
 ---
@@ -120,20 +122,20 @@ The imagery should represent football, secrecy and excitement; as the title of t
 #### First time visitor goals:
 1. I want to be evoked with exitement and interest as playing football is a hobby/passion; especially in a competitve format.
     * The hero image of people playing football ina floodlight, islotaed pitch triggers the secret and excitement theme of the tournament.
-    [image](assets/images/background-images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg)
+    [image](readme-files/readme-images/ux-testing/rmss-home-md+screen.jpg)
 2. I want to be able to find out the main details of the website which are where and when the tournament will be held, and how the tournament will be held. 
-    * After the intriguemnt caused by the hero-image, scrolling down or clicking on the link next to the 'Home' link, the 'How it works' link, leads me straight to the main details of how the tournament is runned and how to take part.
+    * After the intriguemnt caused by the hero-image, scrolling down or clicking on the link next to the 'Home' link, the 'How it works' link, leads me straight to the main details of how the tournament is runned and how to take part. [image](readme-files/readme-images/ux-testing/rmss-howitworks-section-md+-screen.jpg)
 3. I will also want to be able to get a glimse of the tournament such as pictures of their last tournament.
-    * A gallery section shows me an array of pictures from the previous tournament. This gives the user an image of what to expect.
+    * A gallery section shows me an array of pictures from the previous tournament. This gives the user an image of what to expect. [image](readme-files/readme-images/ux-testing/rmss-gallery-nonmoving-section-md+-screen.jpg)
 4. Registering for the tournament should be easy as I and most people of this town have clear short attention spans.
     * The registration asks very little and basic information. It looks simple and attractive throught the simplicity of the design. It is simple enough for the average user attention span. [image](readme-files/readme-images/ux-testing/rmss-registration-section-sm-screen.jpg)
 
 #### Returning visitor goals:
 1. I want to be able to go through any part of the website for reasons such as reconsidering, rereading anything I might not have remembered misunderstood, show my friends the website and most importantly, being able to register my team after I get my friends to join me. 
     * A navigation bar that constantly stays at the top of the page lets the user move from one section of the page to another with ease. It does not clutter the page especially on the mobile app as the links are within the toggle button in a tidy manner.
-    ![image](Screenshots\static-navbar-ss.jpg)
+    [image](readme-files/readme-images/ux-testing/rdss-navbar-working.jpg)
 2. Contact details will be helpful if I have any questions.
-    * Contact information of various formats are given at the footer section. It also contains links to the social media pages for further options of gainig information of the tournament.
+    * Contact information of various formats are given at the footer section. It also contains links to the social media pages for further options of gainig information of the tournament. [image](readme-files/readme-images/ux-testing/rmss-footer-sm-screen.jpg)
 
 #### Frequent user goals:
 1. I want to be able to reread the details of the tournament as the date comes closer.
@@ -160,3 +162,10 @@ Clicking on the twitter icon leads you to the twitter website on a new tab | yes
 Clicking on the youtube icon leads you to the youtube website on a new tab | yes | yes | yes
 
 ### Validation
+I put the index.html and style.css file through a validator on the [W3C website](https://validator.w3.org/) to detect any errors. Below are my results:
+* index.html    
+    * Attempt 1: [image](readme-files/readme-images/validators/rmss-w3c-validator-html-with-errors.jpg)
+    * Attempt 2: [images](readme-files/readme-images/validators/rmsc-w3c-validator-html-no-errors.jpg)
+* style.css 
+    * Attempt 1: [image](readme-files/readme-images/validators/rmsc-w3c-validator-css-without-errors.jpg)
+
