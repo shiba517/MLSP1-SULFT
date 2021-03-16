@@ -201,17 +201,17 @@ You can keep a copy of a repository on your own computing device via the followi
 ## Credits
 ---
 ### Codes
-* The navbar in the 'header' section was copied and slightly altered from the bootstrap website - https://getbootstrap.com/docs/5.0/examples/navbars/
-* The carousal in the 'Gallery' section was copied and slighlyy altered from the bootstrap website - https://getbootstrap.com/docs/5.0/components/carousel/#slides-only
+* 001 - The navbar in the 'header' section was copied and slightly altered from the bootstrap website - [.html link](readme-files/codes/copied-codes-001.html)
+* 002 - The carousal in the 'Gallery' section was copied and slighlyy altered from the bootstrap website - [.html link](readme-files/codes/copied-codes-002.html)
 
 ### Content
 * All content was written by myself
 * Names of characters and locations were copied from english folk stories
 
 ## Media
-* All images found, except for the website logo, was found from a the website, [unsplash.com](https://unsplash.com/). Proper names or the pictures were not given but the photographers name were:
-    * Abigail Keenan
-    * Dominik Kuhn
-    * Jannik Skorna
-    * Chaos Soccer Gallery
-    * Johnathan Petersson
+* All images found, except for the website logo, was found from a the website, [unsplash.com](https://unsplash.com/). Here is a list of the photographers and a link to the phot I used:
+    * Abigail Keenan - https://unsplash.com/photos/8-s5QuUBtyM
+    * Dominik Kuhn - https://unsplash.com/photos/kEHp1gUJNO8
+    * Jannik Skorna - https://unsplash.com/photos/mY2ZHBU6GRk
+    * Chaos Soccer Gallery - https://unsplash.com/photos/tJpMZs-Dy74
+    * Johnathan Petersson - https://unsplash.com/photos/ARU18GpF6QQ
