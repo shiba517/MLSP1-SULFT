@@ -93,6 +93,7 @@ The imagery should represent football, secrecy and excitement; as the title of t
 
 ## **Features**
 ---
+![Website shown across deifferent platforms](readme-files/readme-images/features/rmss-alldevices.jpg)
 ### Current features
 * The website will be responsive on mobile, tablet and monitor devices. Some obvious and not so obvious parts of the website alter depending on screen size such as the positioning of the 'About us' and 'Get in touch' in the Footer. [image on mobile](readme-files/readme-images/features/rmss-footer-sm-screen.jpg), [image on tablet screen and bigger](readme-files/readme-images/features/rmss-footer-md+-screen.jpg)
 * Clicking on the register button in the 'Registration' section has a modal linked to it. It contains a short message regarding letting the user know registration has been completed and joining the tournament. It should let known that the details entered doesnt actually get recorded due to the manner of the reason why this website has been made. [image](readme-files/readme-images/features/rmss-registration-modal-xl-screen.jpg)  
