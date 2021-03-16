@@ -197,3 +197,21 @@ You can keep a copy of a repository on your own computing device via the followi
 2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
 3. When clicked on this button, there will be an option to donwload it via the link 'Download ZIP'
 4. Save it on your system and you will now have access to the repositpory away from the GitHub website
+
+## Credits
+---
+### Codes
+* The navbar in the 'header' section was copied and slightly altered from the bootstrap website - https://getbootstrap.com/docs/5.0/examples/navbars/
+* The carousal in the 'Gallery' section was copied and slighlyy altered from the bootstrap website - https://getbootstrap.com/docs/5.0/components/carousel/#slides-only
+
+### Content
+* All content was written by myself
+* Names of characters and locations were copied from english folk stories
+
+## Media
+* All images found, except for the website logo, was found from a the website, [unsplash.com](https://unsplash.com/). Proper names or the pictures were not given but the photographers name were:
+    * Abigail Keenan
+    * Dominik Kuhn
+    * Jannik Skorna
+    * Chaos Soccer Gallery
+    * Johnathan Petersson
