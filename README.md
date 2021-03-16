@@ -1,11 +1,14 @@
+![website logo](assets/images/sulft-logo.png)
 # **Code Institute User-Centric Frontend Development Milestone Project 1 - Secret Underground Lockdown Football Tournament**
 
 ## **Project Aim**
+---
 The town of Camelot is under a lockdown due to a terrible plague that has been killing thousands of its people day by day for the past three months. The locals have tried obeying the rules but as the moons go by, frustration grows and recently quicker as the dictotoral aporoach by the knights and their soldiers is getting too much. This has led to a small group of an underground group, The Merry Men, planning a a sequel to their football tournament which they held at a few villages away. Growing number of men are getting increasingly angry due to the absense of football, which was a triving hobby of the locals, and because of the current regime they are living under. The Merry Men can forsee a riot occuring if they don't have a channel to release their negative energy. 
 
 The Merry Men have asked me to create a website for their upcoming secretly held football tournament. This website must help promote the event, inform them of relevant information and get as many people to register in order to prevent a revolke.
 
 ## **User experience (UX)**
+---
 ### Business owner/Organiser user stories
 As a business owner /organiser I want: 
 * to make sure the website catches the eye of the user from their first look
@@ -28,6 +31,7 @@ As a business owner /organiser I want:
     * As a requent user, I want to be able to reread the details of the tournament as the date comes closer. 
     * A gallery will be helpful in getting myself and my team mates to get excited as the date comes closer.
 ## **The 5 Planes**
+---
 A 5 plane strategy was made to aid in how I should approach and what to include in my project. This will help minimise any major changes needed throughout the project and help keep me within the theme, objective and plans of the website.
 ### Strategy
 This website will be targeted at those that used to play football regularly pre lockdown. This will mainly consist of males aged between the late teens to mid-30s. By creating a website, I will be able to help encourage the locals to sign up and participate in the tournament. therfore, teh website should
@@ -75,7 +79,7 @@ A nav bar that stays on top will help the user on from their first visit and esp
 As the target audience will be of mainly young men, the colour scheme must have a cool and sporty look to it. A colour combination of mainly dark colours matched with some contrasting brighter colours will do the job. I have chosen a colour scheme consisting of a tone of black, grey, white and yellow.
 
 * Typography:
-I looked at a few font-style for googleFonts.com and decided the original font-style is simple, doesn't distract the user and compliments the colour theme of the website best.
+I looked at a few font-style at [GoogleFonts](https://fonts.google.com/) and decided the original font-style is simple, doesn't distract the user and compliments the colour theme of the website best.
 
 * Imagery:
 The imagery should represent football, secrecy and excitement; as the title of the website suggests.
@@ -85,7 +89,8 @@ The imagery should represent football, secrecy and excitement; as the title of t
     * Screensize of md and bigger: [wireframe image](readme-files/readme-images/wireframes/wireframe-md+-screensize.png) 
     * Mobile: [wireframe image](readme-files/readme-images/wireframes/wireframe-sm-screensize.png)
 
-## Features
+## **Features**
+---
 ### Current features
 * The website will be responsive on mobile, tablet and monitor devices. Some obvious and not so obvious parts of the website alter depending on screen size such as the positioning of the 'About us' and 'Get in touch' in the Footer
 * Clicking on the register button in the 'Registration' section has a modal linked to it. It contains a short message regarding letting the user know registration has been completed and joining the tournament. It should let known that the details entered doesnt actually get recorded due to the manner of the reason why this website has been made.  
@@ -97,7 +102,8 @@ The imagery should represent football, secrecy and excitement; as the title of t
 * The possibility of being able to see the next picture in the 'Gallery' section
 * The navigation burger toggle to untoggle once clocked on the link the user wants to go to. Curretnly, it stays open when a link is clicked
 
-## Technologies used
+## **Technologies used**
+---
 * HTML
 * CSS
 * Bootstrap
@@ -108,7 +114,32 @@ The imagery should represent football, secrecy and excitement; as the title of t
 * Free Logo Design
 * Unsplash
 
-## Testing
+## **Testing**
+---
+### UX testing
+#### First time visitor goals:
+1. I want to be evoked with exitement and interest as playing football is a hobby/passion; especially in a competitve format.
+    * The hero image of people playing football ina floodlight, islotaed pitch triggers the secret and excitement theme of the tournament.
+    [image](assets/images/background-images/abigail-keenan-8-s5QuUBtyM-unsplash.jpg)
+2. I want to be able to find out the main details of the website which are where and when the tournament will be held, and how the tournament will be held. 
+    * After the intriguemnt caused by the hero-image, scrolling down or clicking on the link next to the 'Home' link, the 'How it works' link, leads me straight to the main details of how the tournament is runned and how to take part.
+3. I will also want to be able to get a glimse of the tournament such as pictures of their last tournament.
+    * A gallery section shows me an array of pictures from the previous tournament. This gives the user an image of what to expect.
+4. Registering for the tournament should be easy as I and most people of this town have clear short attention spans.
+    * The registration asks very little and basic information. It looks simple and attractive throught the simplicity of the design. It is simple enough for the average user attention span. [image](readme-files/readme-images/ux-testing/rmss-registration-section-sm-screen.jpg)
+
+#### Returning visitor goals:
+1. I want to be able to go through any part of the website for reasons such as reconsidering, rereading anything I might not have remembered misunderstood, show my friends the website and most importantly, being able to register my team after I get my friends to join me. 
+    * A navigation bar that constantly stays at the top of the page lets the user move from one section of the page to another with ease. It does not clutter the page especially on the mobile app as the links are within the toggle button in a tidy manner.
+    ![image](Screenshots\static-navbar-ss.jpg)
+2. Contact details will be helpful if I have any questions.
+    * Contact information of various formats are given at the footer section. It also contains links to the social media pages for further options of gainig information of the tournament.
+
+#### Frequent user goals:
+1. I want to be able to reread the details of the tournament as the date comes closer.
+    * Easy navigation around the website helps the user find what they want with the use of a static navabr thats stays ontop of the page.
+2. A gallery will be helpful in getting myself and my team mates to get excited.
+    * A gallery section is important in evoking the feeling of wanting to 'really' join the tournament. Pictures of the intensity of the previous tournament are chosen to help this.
 
 ### Cross platform testing
 AIM | mobile | tablet | laptop/PC
