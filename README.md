@@ -156,19 +156,20 @@ AIM | mobile | tablet | laptop/PC
 'About us' link in the navbar leads to footer/#footer-aboutus-and-getintouch | yes | yes | yes
 The website logo in the far left of the navbar leads to header/#Home | yes | yes | yes
 Navbar toggle option only appears on a mobile or tablet device | yes | yes | no
-Register button on header/#Home section leads to 'Registration' section | no | no | no
+Register button on header/#Home section leads to 'Registration' section | yes | yes | yes
 Pictures in the 'Gallery' section change every few seconds | yes | yes | yes
 A modal appears when clicking on the register button on the form in the 'Registration' section | yes | yes | yes
 Clicking on the facebook icon leads you to the facebook website on a new tab | yes | yes | yes
 Clicking on the instagram icon leads you to the instagram website on a new tab | yes | yes | yes
 Clicking on the twitter icon leads you to the twitter website on a new tab | yes | yes | yes
 Clicking on the youtube icon leads you to the youtube website on a new tab | yes | yes | yes
+The yellow cards on the 'How it works' section are not all positioned one on top of the other when not on a mobile device | yes | no | no
 
 ### Validation
 I put the index.html and style.css file through a validator on the [W3C website](https://validator.w3.org/) to detect any errors. Below are my results:
 * index.html    
     * Attempt 1: [image](readme-files/readme-images/validators/rmss-w3c-validator-html-with-errors.jpg)
-    * Attempt 2: [images](readme-files/readme-images/validators/rmsc-w3c-validator-html-no-errors.jpg)
+    * Attempt 2: [image](readme-files/readme-images/validators/rmsc-w3c-validator-html-no-errors.jpg)
 * style.css 
     * Attempt 1: [image](readme-files/readme-images/validators/rmsc-w3c-validator-css-without-errors.jpg)
 
