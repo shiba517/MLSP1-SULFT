@@ -165,6 +165,9 @@ Clicking on the twitter icon leads you to the twitter website on a new tab | yes
 Clicking on the youtube icon leads you to the youtube website on a new tab | yes | yes | yes
 The yellow cards on the 'How it works' section are not all positioned one on top of the other when not on a mobile device | yes | no | no
 
+### Bugs/fixes
+* To emphasise the context of the written content in the yellow cards in the 'How it works' section, I wanted to emphasise the word 'CHAMPIONS!!!' via the tag 'strong'. When I did this, the targeted word did not align with the rest of the content so I left the word in a simple 'p' tag. [image(readme-files/readme-images/bugs/rmss-strongtag-notworking-example.jpg)]
+
 ### Validation
 I put the index.html and style.css file through a validator on the [W3C website](https://validator.w3.org/) to detect any errors. Below are my results:
 * index.html    
