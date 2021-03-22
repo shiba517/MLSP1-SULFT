@@ -74,7 +74,7 @@
 
 /* *** SECTION 2 & 3 */
 .nbs-s2s3-bg {
-    background-image: url(../images/background-images/dominik-kuhn-kEHp1gUJNO8-unsplash.jpg);
+    background: url(../images/background-images/dominik-kuhn-kEHp1gUJNO8-unsplash.jpg) fixed;
     height: 100%;
     top: 0;
     left: 0;
