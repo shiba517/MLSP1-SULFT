@@ -1,6 +1,7 @@
 ![website logo](assets/images/sulft-logo.png)
 # **Code Institute User-Centric Frontend Development Milestone Project 1 - Secret Underground Lockdown Football Tournament**
 
+![Website shown across deifferent platforms](readme-files/readme-images/features/rmss-alldevices.jpg)
 [View live website](https://shiba517.github.io/MLSP1-SULFT/)
 
 ## **Project Aim**
@@ -93,7 +94,6 @@ The imagery should represent football, secrecy and excitement; as the title of t
 
 ## **Features**
 ---
-![Website shown across deifferent platforms](readme-files/readme-images/features/rmss-alldevices.jpg)
 ### Current features
 * The website will be responsive on mobile, tablet and monitor devices. Some obvious and not so obvious parts of the website alter depending on screen size such as the positioning of the 'About us' and 'Get in touch' in the Footer. [image on mobile](readme-files/readme-images/features/rmss-footer-sm-screen.jpg), [image on tablet screen and bigger](readme-files/readme-images/features/rmss-footer-md+-screen.jpg)
 * Clicking on the register button in the 'Registration' section has a modal linked to it. It contains a short message regarding letting the user know registration has been completed and joining the tournament. It should let known that the details entered doesnt actually get recorded due to the manner of the reason why this website has been made. [image](readme-files/readme-images/features/rmss-registration-modal-xl-screen.jpg)  
@@ -176,6 +176,9 @@ I put the index.html and style.css file through a validator on the [W3C website]
 * style.css 
     * Attempt 1: [image](readme-files/readme-images/validators/rmsc-w3c-validator-css-without-errors.jpg)
 
+I wanted to check if the website was mobile freindly because of the use of Bootstrap(a mobile first focused library) and due to the demographic of the target audience. To do this, I used the [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly). Below my are my results:
+* Attempt 1: [image](readme-files/readme-images/validators/rmss-mobile-friendly-verification.jpg)
+
 ## Deployment
 ---
 ### GitHub page
@@ -206,14 +209,14 @@ You can keep a copy of a repository on your own computing device via the followi
 ## Credits
 ---
 ### Codes
-* 001 - The navbar in the 'header' section was copied and slightly altered from the bootstrap website - [.html link](readme-files/codes/copied-codes-001.html)
-* 002 - The carousal in the 'Gallery' section was copied and slighlyy altered from the bootstrap website - [.html link](readme-files/codes/copied-codes-002.html)
+* The navbar in the 'header' section was copied and slightly altered from the bootstrap website - [.html link](readme-files/codes/copied-codes-001.html)
+* The carousal in the 'Gallery' section was copied and slighlyy altered from the bootstrap website - [.html link](readme-files/codes/copied-codes-002.html)
 
 ### Content
 * All content was written by myself
 * Names of characters and locations were copied from english folk stories
 
-## Media
+### Media
 * All images found, except for the website logo, was found from a the website, [unsplash.com](https://unsplash.com/). Here is a list of the photographers and a link to the phot I used:
     * Abigail Keenan - https://unsplash.com/photos/8-s5QuUBtyM
     * Dominik Kuhn - https://unsplash.com/photos/kEHp1gUJNO8
