@@ -10,6 +10,34 @@ The town of Camelot is under a lockdown due to a terrible plague that has been k
 
 The Merry Men have asked me to create a website for their upcoming secretly held football tournament. This website must help promote the event, inform them of relevant information and get as many people to register in order to prevent a revolke.
 
+## **Content**
+- [User Experience](#user-experience-(ux))
+    * [Business owner/Organiser user stories](#business-owner/organiser-user-stories)
+    * [User Stories](#user-stories)
+- [The 5 Planes](#the-5-planes)
+    * [Strategy]
+    * [Scope]
+    * [Structure]
+    * [Surface]
+    * [Skeletal]
+- [Features](#features)
+    * [Current features]
+    * [Future features]
+- [Technologies used](#technologies-used)
+- [Testing](#testing)
+    * [UX testing]
+    * [Cross platform testing]
+    * [Bugs/fixes]
+    * [Validation]
+- [Deployment](#deployment)
+    * [GitHub page]
+    * [Forking the Github repository]
+    * [Making a local clone]
+- [Credits](#credits)
+    * [Codes]
+    * [Content]
+    * [Media]
+
 ## **User experience (UX)**
 ---
 ### Business owner/Organiser user stories
