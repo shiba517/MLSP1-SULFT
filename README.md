@@ -15,28 +15,28 @@ The Merry Men have asked me to create a website for their upcoming secretly held
     * [Business owner/Organiser user stories](#business-owner/organiser-user-stories)
     * [User Stories](#user-stories)
 - [The 5 Planes](#the-5-planes)
-    * [Strategy]
-    * [Scope]
-    * [Structure]
-    * [Surface]
-    * [Skeletal]
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Surface](#surface)
+    * [Skeletal](#skeletal)
 - [Features](#features)
-    * [Current features]
-    * [Future features]
+    * [Current features](#current-features)
+    * [Future features](#future-features)
 - [Technologies used](#technologies-used)
 - [Testing](#testing)
-    * [UX testing]
-    * [Cross platform testing]
-    * [Bugs/fixes]
-    * [Validation]
+    * [UX testing](#ux-testing)
+    * [Cross platform testing](#cross-platform-testing)
+    * [Bugs and fixes](#bugs-and-fixes)
+    * [Validation](#validation)
 - [Deployment](#deployment)
-    * [GitHub page]
-    * [Forking the Github repository]
-    * [Making a local clone]
+    * [GitHub page](#github-page)
+    * [Forking the Github repository](#forking-the-github-repository)
+    * [Making a local clone](#making-a-local-clone)
 - [Credits](#credits)
-    * [Codes]
-    * [Content]
-    * [Media]
+    * [Codes](#codes)
+    * [Content](#content)
+    * [Media](#media)
 
 ## **User experience (UX)**
 ---
@@ -193,7 +193,7 @@ Clicking on the twitter icon leads you to the twitter website on a new tab | yes
 Clicking on the youtube icon leads you to the youtube website on a new tab | yes | yes | yes
 The yellow cards on the 'How it works' section are not all positioned one on top of the other when not on a mobile device | yes | no | no
 
-### Bugs/fixes
+### Bugs and fixes
 * To emphasise the context of the written content in the yellow cards in the 'How it works' section, I wanted to emphasise the word 'CHAMPIONS!!!' via the tag 'strong'. When I did this, the targeted word did not align with the rest of the content so I left the word in a simple 'p' tag. [image](readme-files/readme-images/bugs-fixes/rmss-strongtag-notworking-example.jpg)
 
 ### Validation
