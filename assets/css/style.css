@@ -72,9 +72,7 @@
 }
 
 .nbs-s2s3-overlay {
-    /* background-color: rgba(255, 255, 255, 0.1); */
     background-color: rgba(255, 101, 47, 0.55);
-    /* background-color: rgba(255, 228, 0, 0.6); */
     height: 100%;
     top: 0;
     left: 0;
@@ -84,7 +82,6 @@
 /* *** SECTION 2: GALLERY */
 .nbs-carousel-dec {
     border: 4px solid;
-    /* border: none; */
     border-color: whitesmoke;
 }
 
@@ -208,5 +205,3 @@
     }
 }
 
-@media (min-width: 1400px) {
-}
