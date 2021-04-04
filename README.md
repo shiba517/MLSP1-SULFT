@@ -237,13 +237,13 @@ You can keep a copy of a repository on your own computing device via 3 different
 
 * Method 2
     1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
-    2. 2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
+    2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
     3. When clicked on this button, there will be an option to donwload it via the link 'Open with GitHub desktop'
     4. You now have the option to use the repository on the GitHub app or open it on your preffered external editor. [image](readme-files/readme-images/deployment/rmss-deployment-on-github-app.jpg)
 
 * Method 3
-    1. 1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
-    2. 2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
+    1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
+    2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
     3. When clicked on this button, there will be an option to copy the HTTPS path. Copy this. [image](readme-files/readme-images/deployment/rmss-deployment-https-link.jpg)
     4. In your chosen terminal or GitBash, type in 'git clone' followed by a space and the copied text from the previous step. [image](readme-files/readme-images/deployment/rmss-deploymant-entering-cloning-into-terminal.jpg) [image](readme-files/readme-images/deployment/rmss-deploymant-entering-cloning-into-terminal-done.jpg)
 
