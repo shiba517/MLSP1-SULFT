@@ -212,7 +212,7 @@ I wanted to check if the website was mobile freindly because of the use of Boots
 ### GitHub page
 This website was deployed onto GitHub via the following steps:
 1. Login to your [GitHub](https://github.com/) account and created a new Repository
-3. Fill outthe relevant options such as 'Description', 'Add a README file'
+3. Fill out the relevant options such as 'Description', 'Add a README file'
     * There is an option to use a template under the heading 'Repository template'; I chose a template given by [Code Institute](https://codeinstitute.net/). [image](readme-files/readme-images/deployment/rmss-deployment-repository-selecting-codeinstitue-template.jpg)
 3. Finally, click on the 'create repository' button at the end of the page to create a new repository
 4. Click on the 'Settings' button 
@@ -228,11 +228,24 @@ It is possible to copy this repository to your own repository via the following 
 3. You should now have available a copy of the repository in your own repository list
 
 ### Making a local clone
-You can keep a copy of a repository on your own computing device via the following steps:
-1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
-2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
-3. When clicked on this button, there will be an option to donwload it via the link 'Download ZIP'
-4. Save it on your system and you will now have access to the repositpory away from the GitHub website
+You can keep a copy of a repository on your own computing device via 3 different ways:
+* Method 1
+    1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
+    2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
+    3. When clicked on this button, there will be an option to donwload it via the link 'Download ZIP'
+    4. Save it on your system and you will now have access to the repositpory away from the GitHub website
+
+* Method 2
+    1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
+    2. 2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
+    3. When clicked on this button, there will be an option to donwload it via the link 'Open with GitHub desktop'
+    4. You now have the option to use the repository on the GitHub app or open it on your preffered external editor. [image](readme-files/readme-images/deployment/rmss-deployment-on-github-app.jpg)
+
+* Method 3
+    1. 1. Login to your [GitHub](https://github.com/) account and find the repository you woould like to copy
+    2. 2. Next to the green 'Gitpod' button will be a button called 'Code' which will have a working dropdown button. [image](readme-files/readme-images/deployment/rmss-deployment-locating-code-button.jpg)
+    3. When clicked on this button, there will be an option to copy the HTTPS path. Copy this. [image](readme-files/readme-images/deployment/rmss-deployment-https-link.jpg)
+    4. In your chosen terminal or GitBash, type in 'git clone' followed by a space and the copied text from the previous step. [image](readme-files/readme-images/deployment/rmss-deploymant-entering-cloning-into-terminal.jpg) [image](readme-files/readme-images/deployment/rmss-deploymant-entering-cloning-into-terminal-done.jpg)
 
 ## Credits
 ---
